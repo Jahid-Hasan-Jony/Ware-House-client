@@ -3,7 +3,7 @@ import React from 'react';
 const Blogs = () => {
     return (
         <div className='container'>
-            <h1 className='text-center py-2 mb-4 bg-light border'>My Blogs</h1>
+            <h1 className='text-center py-2 mb-4'>My Blogs</h1>
             {/* First question */}
             <h2 className='py-3'>Difference between javascript and nodejs</h2>
             <table className="table table-bordered">
