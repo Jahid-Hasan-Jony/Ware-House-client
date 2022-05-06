@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
 import LoadingPage from '../../LoadingPage/LoadingPage';
-import Auth from '../../../firebase/firebase.init';
+import Auth from '../../../Firebase/Firebase.init';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 

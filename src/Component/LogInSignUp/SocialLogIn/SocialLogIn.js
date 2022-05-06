@@ -1,5 +1,5 @@
 import React from 'react';
-import Auth from '../../../firebase/firebase.init';
+import Auth from '../../../Firebase/Firebase.init';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import LoadingPage from '../../LoadingPage/LoadingPage';
 import { useNavigate } from 'react-router-dom';

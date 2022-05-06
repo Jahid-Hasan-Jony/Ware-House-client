@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import Auth from '../../../firebase/firebase.init';
+import Auth from '../../../Firebase/Firebase.init';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
 import LoadingPage from '../../LoadingPage/LoadingPage';
 import { toast } from 'react-toastify';

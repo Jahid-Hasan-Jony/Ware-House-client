@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import LoadingPage from '../LoadingPage/LoadingPage';
+import ReviewSection from '../ReviewSection/ReviewSection';
+
 
 
 const Home = () => {
@@ -8,7 +9,7 @@ const Home = () => {
         <div>
             <div className='container'>
                 <h1>This is home page</h1>
-                <LoadingPage />
+                <ReviewSection />
             </div>
             <Footer />
         </div>
