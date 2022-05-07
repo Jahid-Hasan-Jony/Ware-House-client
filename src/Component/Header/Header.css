@@ -1,0 +1,12 @@
+.nav-link {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logOutBtn {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+}

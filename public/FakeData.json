@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Cauliflower",
+        "imgURL": "https://i.ibb.co/CQ2Q65S/kisspng-leaf-vegetable-fruit-broccoli-broccoflower-5afe4f4de00cb4-7862976315266158859177.png",
+        "description": "Cauliflower is as good a source of fiber and vitamins.Its ingredients may help strengthen bones, boost the cardiovascular system, and prevent cancer.",
+        "price": 49,
+        "quantity": 70,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Red Tomato",
+        "imgURL": "https://i.ibb.co/ZTvdmJr/tomatoes-food-red.jpg",
+        "description": "The tomato is consumed in diverse ways, including raw, as an ingredient in many dishes, sauces, salads, and drinks. it is considered a vegetable for culinary purposes.",
+        "price": 29,
+        "quantity": 90,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Potato",
+        "imgURL": "https://i.ibb.co/N79tb3L/potatoes-vegetables-food.jpg",
+        "description": "potassium, vitamins, etc. Regular potato provides 9-10 percent of your daily need. Regular potatoes offer more of this nutrient which helps control your blood pressure. Make a good curry with regular potato.",
+        "price": 19,
+        "quantity": 120,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Orange",
+        "imgURL": "https://i.ibb.co/x8SBv7R/citrus-clementine-food.jpg",
+        "description": "Fruit grown in warmer doesn't develop a deep orange color. Cold nighttime temperatures cause citrus to show deep orange color, and when the weather warms up again in late spring and early summer.",
+        "price": 200,
+        "quantity": 30,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Barari Dates",
+        "imgURL": "https://i.ibb.co/pKCgnJg/kisspng-date-palm-clip-art-5b29f9fc371b65-9273540615294776282257.png",
+        "description": "Barari (Tunisian) Dates called as “Queen of The Dates” also Barari  original Tunisian dates freshly imported from Tunisia. No artificial additives or preservatives have been used in them.",
+        "price": 250,
+        "quantity": 25,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Litchi",
+        "imgURL": "https://i.ibb.co/T8nfjtM/kisspng-lychee-fruit-health-nutrition-food-asian-png-tumblr-5b6e255ddc9538-0479857815339451819035-1.png",
+        "description": "Litchi benefits include its ability to aid in weight loss, protect the skin, boost the immune system, prevent cancer, improve digestion, build strong bones, lower blood pressure, defend the body against viruses, improve circulation, and optimize metabolic activities.",
+        "price": 300,
+        "quantity": 40,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Meat",
+        "imgURL": "https://i.ibb.co/PQP7JM2/background-beef-chop-closeup-cooking-cut-food-604240.jpg",
+        "description": "Meat, such as beef, is mainly composed of protein. Usually eaten as roasts, ribs, or steaks, beef is also commonly ground or minced. Patties of ground beef are often used in hamburgers.",
+        "price": 700,
+        "quantity": 25,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Egg",
+        "imgURL": "https://i.ibb.co/dDT5j4B/eggs-four-food.jpg",
+        "description": " Duck Eggs are an all-natural source of high-quality protein and a number of other nutrients. Duck egg is a good source of Protein, Riboflavin, Folate, Iron and Phosphorus, and a very good source of Vitamin B12 and Selenium.",
+        "price": 12,
+        "quantity": 150,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Palong Shak",
+        "imgURL": "https://i.ibb.co/F6STTQB/kisspng-tea-sandwich-watercress-soup-leaf-vegetable-health-ginger-5acdcdf2950ed5-0630554715234370426.png",
+        "description": "Bright, vibrant-looking spinach leaves are not only more appealing to the eye but more nourishing as well. Spinach has good levels of iron.",
+        "price": 15,
+        "quantity": 25,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Cucumber",
+        "imgURL": "https://i.ibb.co/bv6YcKD/kisspng-pickled-cucumber-vegetable-juice-food-5b37d638d8d724-4255525515303859768882.png",
+        "description": "Few foods are as cool as a cucumber.While most people think of cucumbers as vegetables, they are actually a fruit.Cucumbers are naturally low in calories",
+        "price": 25,
+        "quantity": 25,
+        "supplierName": "Galaxy Grocery Store"
+    },
+    {
+        "name": "Onions",
+        "imgURL": "https://i.ibb.co/zfD9Q2L/kisspng-potato-onion-vegetable-garlic-red-onion-onion-5a704bae9a4b13-486973041517308846632.png",
+        "description": "Though all vegetables are important for health, certain kinds offer unique benefits. Onions are members of the Allium genus of flowering plants.",
+        "price": 35,
+        "quantity": 50,
+        "supplierName": "Galaxy Grocery Store"
+    }
+]

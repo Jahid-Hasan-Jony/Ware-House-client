@@ -8,6 +8,8 @@ import SignUp from './Component/LogInSignUp/SignUp/SignUp';
 import PageNotFound from "./Component/PageNotFound/PageNotFound";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Inventory from './Component/Inventory/Inventory';
+import RequireAuth from './Component/LogInSignUp/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -19,6 +21,11 @@ function App() {
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/login' element={<LogIn />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/inventory/:name' element={
+          <RequireAuth>
+            <Inventory />
+          </RequireAuth>
+        } />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <ToastContainer />
