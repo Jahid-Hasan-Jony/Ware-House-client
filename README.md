@@ -1,12 +1,13 @@
-# Getting Started with Create React App
+# Glaxy Glocery Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Project Link : [Glaxy Glocery Store](https://warehouse-97cd9.web.app/).
+Stack Overflow Link : [Question Link](https://stackoverflow.com/questions/72162063/how-to-convert-axios-code-to-fetch-api-for-jwt-token?noredirect=1#comment127499898_72162063).
 
-## Available Scripts
+This website is about glocery store. On this website we see glocery items and its details. User of this website can add item and modify easily.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Website Functionality
+* Home with wonderful navbar and footer
+* Private Protected Route
+* User Product update and adding system
+* Unique 404 Page
+* Login and Registration System
