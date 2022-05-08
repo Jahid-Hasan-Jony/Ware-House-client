@@ -5,6 +5,7 @@ import Auth from '../../../Firebase/Firebase.init';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
 import LoadingPage from '../../LoadingPage/LoadingPage';
 import { toast } from 'react-toastify';
+import axios from 'axios';
 
 
 const LogIn = () => {
@@ -41,11 +42,11 @@ const LogIn = () => {
         </p>
     }
     // while submit login form
-    const handleLogin = (event) => {
+    const handleLogin = async event => {
         event.preventDefault();
         let email = emailRf.current.value;
         let password = passwordRf.current.value;
-        signInWithEmailAndPassword(email, password);
+        await signInWithEmailAndPassword(email, password);
     }
     // for reset password
     const resetPassword = async () => {

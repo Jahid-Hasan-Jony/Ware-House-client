@@ -27,7 +27,23 @@ const Header = () => {
                             <CustomLink className="nav-link" to="/blogs">Blogs</CustomLink>
                         </li>
                         <li className="nav-item">
-                            {user ? <button className='btn logOutBtn' onClick={handleLogOut}>Log Out</button> :
+                            {user ? <div className='d-flex'>
+                                <li className="nav-item">
+                                    <CustomLink className="nav-link" to="/manage-inventories">Manage Items</CustomLink>
+                                </li>
+                                <li className="nav-item">
+                                    <CustomLink className="nav-link" to="/add-item">Add Item</CustomLink>
+                                </li>
+                                <li className="nav-item">
+                                    <CustomLink className="nav-link" to="/my-items">My items</CustomLink>
+                                </li>
+                                <button className='btn logOutBtn' onClick={handleLogOut}>Log Out</button>
+
+                                <li className="nav-item">
+                                    <a href='#' className="nav-link">{user.displayName}</a>
+                                </li>
+
+                            </div> :
                                 <CustomLink className="nav-link" to="/login">Log In</CustomLink>}
                         </li>
                     </ul>

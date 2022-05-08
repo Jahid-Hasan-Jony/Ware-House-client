@@ -5,10 +5,11 @@ import Footer from './Footer/Footer';
 import ChooseUsSection from './ChooseUsSection/ChooseUsSection';
 import Banner from './Banner/Banner';
 import HomeItems from './HomeItems';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
-    const [items] = useLoadItemsData('FakeData.json')
+    const [items] = useLoadItemsData('https://pacific-refuge-31160.herokuapp.com/foods')
     return (
         <div>
             <div className='container'>
@@ -17,8 +18,9 @@ const Home = () => {
                 <h1 className='py-4 text-center'>Our Products</h1>
                 <div className='row g-3'>
                     {items.slice(0, 6).map(item =>
-                        <HomeItems key={item.name} item={item} />
+                        <HomeItems key={item._id} item={item} />
                     )}
+                    <Link className='btn btn-outline-success text-center btn-lg my-5' to='/manage-inventories'>Manage Inventories</Link>
                 </div>
                 <ChooseUsSection />
             </div>
