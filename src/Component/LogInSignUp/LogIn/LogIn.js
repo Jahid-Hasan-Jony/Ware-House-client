@@ -5,7 +5,7 @@ import Auth from '../../../Firebase/Firebase.init';
 import SocialLogIn from '../SocialLogIn/SocialLogIn';
 import LoadingPage from '../../LoadingPage/LoadingPage';
 import { toast } from 'react-toastify';
-import axios from 'axios';
+
 
 
 const LogIn = () => {
